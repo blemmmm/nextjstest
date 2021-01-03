@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div>
 
-      <button class="btn btn-green">
+      <button className="btn btn-green">
         Button
       </button>
     </div>
