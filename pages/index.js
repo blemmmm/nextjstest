@@ -54,7 +54,7 @@ export default function Home() {
       </div>
       <div class="relative bg-indigo-100">
         <div class="max-w-7xl mx-auto pt-10">
-          <div class="relative z-10 pb-8 sm:pb-16 md:pb-8 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+          <div class="relative z-10 pb-16 sm:pb-16 md:pb-8 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <main class="mt-8 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div class="sm:text-center lg:text-left">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-4xl">
@@ -65,7 +65,7 @@ export default function Home() {
             </main>
           </div>
         </div>
-        <div class="py-8 px-4 md:py-16 sm:py-8 xl:pr-96 xl:pl-28 lg:absolute lg:inset-y-0 lg:right-0 xl:w-2/4 flex flex-row items-center">
+        <div class="overflow-hidden py-8 px-4 md:py-16 sm:py-8 xl:pb-4 xl:pr-96 xl:pl-28 lg:absolute lg:inset-y-0 lg:right-0 xl:w-2/4 flex flex-row items-center">
           <input type="email" placeholder="yourmail@example.com" class="flex flex-grow md:w-full md:flex-grow-0 lg:flex-grow-0 appearance-none rounded-lg shadow-md py-2 px-4 font-semibold text-grey-dark mr-2 focus:outline-none" />
           <button type="submit" class="py-2 px-4 flex font-semibold rounded-lg shadow-md text-white bg-indigo-500 hover:bg-yellow-600">SUBSCRIBE</button>
         </div>
