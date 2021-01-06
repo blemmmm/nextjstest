@@ -52,7 +52,7 @@ export default function Home() {
           <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1609690339416-7c4b115e0794?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="" />
         </div>
       </div>
-      <div class="relative bg-indigo-100">
+      <div class="pb-auto relative bg-indigo-100 justify-center items-center">
         <div class="max-w-7xl mx-auto pt-10">
           <div class="relative z-10 pb-16 sm:pb-16 md:pb-8 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <main class="mt-8 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
@@ -65,8 +65,8 @@ export default function Home() {
             </main>
           </div>
         </div>
-        <div class="overflow-hidden py-8 px-4 md:py-16 sm:py-8 xl:pb-4 xl:pr-96 xl:pl-28 lg:absolute lg:inset-y-0 lg:right-0 xl:w-2/4 flex flex-row items-center">
-          <input type="email" placeholder="yourmail@example.com" class="flex flex-grow md:w-full md:flex-grow-0 lg:flex-grow-0 appearance-none rounded-lg shadow-md py-2 px-4 font-semibold text-grey-dark mr-2 focus:outline-none" />
+        <div class="lg:absolute lg:inset-y-0 lg:right-96 lg:left-2/3 max-w-sm mx-auto p-1 pr-20 flex items-center">
+          <input type="email" placeholder="yourmail@example.com" class="flex flex-grow md:flex-grow-0 lg:flex-grow-0 appearance-none rounded-lg shadow-md py-2 px-4 font-semibold text-grey-dark mr-2 focus:outline-none" />
           <button type="submit" class="py-2 px-4 flex font-semibold rounded-lg shadow-md text-white bg-indigo-500 hover:bg-yellow-600">SUBSCRIBE</button>
         </div>
       </div>
